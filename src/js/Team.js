@@ -22,6 +22,6 @@ export default class Team {
     }
 
     [Symbol.iterator]() {
-        return this.members.values();
+        return this.members;
     }
 }
